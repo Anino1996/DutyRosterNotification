@@ -3,7 +3,7 @@ import Member
 from datetime import date, timedelta
 import os
 
-# 
+ 
 def main():
 
 	# Connect to the House members database

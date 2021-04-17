@@ -21,7 +21,7 @@ class houseMember:
 	# Constructor takes in the full name and email of the house member
 	def __init__(self, name, email):
 		self.name=name
-		self.email='anino1996.ao@gmail.com'
+		self.email=email
 		self.nickname=name.split()[0]
 		
 
