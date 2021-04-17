@@ -2,3 +2,7 @@ emaillogs.txt
 House_members.db
 members.csv
 __pycache__/
+.env
+README.sublime-workspace
+emaillogs.log
+adminMail.py
