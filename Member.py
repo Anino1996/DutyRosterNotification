@@ -39,7 +39,7 @@ class houseMember:
 		server.ehlo()
 
 		server.login(creds.get('mail'),creds.get('pwrd'))
-		message=f"From: 933 Oaklawn Avenue B\r\nTo:{creds.get('mail')}\r\nSubject: Failed to send message\r\n\r\n Hello Admin,\nReminder to {recipient.name} failed.\n Exception raised: {excptn}\n\n"
+		message=f"From: Scrub day\r\nTo:{creds.get('mail')}\r\nSubject: Failed to send message\r\n\r\n Hello Admin,\nReminder to {recipient.name} failed.\n Exception raised: {excptn}\n\n"
 		server.sendmail(creds.get('mail'),"anino1996.ao@gmail.com",message)
 		server.close()
 
